@@ -33,7 +33,8 @@ h1 {
 }
 
 #to-convert:focus {
-    outline: solid 1px red;
+    outline: solid 2px #644af6;
+    outline-offset: -5px;
 }
 
 #convert-btn {

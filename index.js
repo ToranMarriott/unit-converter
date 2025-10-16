@@ -11,6 +11,13 @@ convertBtn.addEventListener("click", function() {
     convert()
 })
 
+
+inputBox.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    convert()
+  }
+})
+
 function convert() {
     lengthOutput.innerHTML = `${inputBox.value} Meters = ${parseFloat(inputBox.value*lengthConversion).toFixed(3)} Feet <br> ${inputBox.value} Feet = ${parseFloat(inputBox.value/lengthConversion).toFixed(3)} Meters`
     volumeOutput.innerHTML = `${inputBox.value} Liters = ${parseFloat(inputBox.value*volumeConversion).toFixed(3)} Gallons <br> ${inputBox.value} Gallons = ${parseFloat(inputBox.value/volumeConversion).toFixed(3)} Liters`
