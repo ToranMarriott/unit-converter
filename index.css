@@ -58,16 +58,19 @@ h1 {
     margin: 1rem;
     padding: 1rem;
     text-align: center;
+    height: 70px;
 }
 
 h2 {
     color: #644af6;
     font-weight: 400;
     font-size: larger;
+    margin: 0;
 }
 
 h3 {
     color: rgb(135, 135, 135);
     font-weight: 400;
     font-size: large;
+    margin: .5rem 0 0 0;
 }
